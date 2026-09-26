@@ -35,7 +35,7 @@ O usuário informa o nome de uma cidade e a aplicação utiliza a API de Geocodi
 
 ## 📸 Preview
 
-> Adicione uma captura de tela do projeto como `preview.png` na raiz do repositório para exibi-la aqui.
+>`preview.png`
 
 ```text
 WeatherApp/
