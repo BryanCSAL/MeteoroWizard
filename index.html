@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MeteoroWizard🧙‍♂️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header>
+            <div>
+                <h1>Meteoro<span>Wizard</span>🧙‍♂️</h1>
+                <p>Consulte as condições climáticas</p>
+            </div>
+
+        
+        </header>
+
+
+        <!-- PESQUISA -->
+
+        <section class="search-section">
+
+            <input
+                type="text"
+                id="cityInput"
+                placeholder="Digite uma cidade..."
+            >
+
+            <button id="searchButton">
+                🔍 Buscar
+            </button>
+
+        </section>
+
+
+        <!-- CLIMA ATUAL -->
+
+        <section class="current-weather">
+
+            <div class="location">
+                <span>📍</span>
+                <h2 id="cityName">Sua cidade</h2>
+            </div>
+
+
+            <div class="weather-main">
+
+                <div class="weather-icon" id="weatherIcon">
+                    🌤️
+                </div>
+
+                <div class="temperature">
+
+                    <span id="temperature">
+                        --°
+                    </span>
+
+                    <p id="weatherDescription">
+                        Consulte o clima
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- INFORMAÇÕES -->
+
+            <div class="weather-info">
+
+                <div class="info-card">
+
+                    <span>💧</span>
+
+                    <div>
+                        <p>Umidade</p>
+                        <strong id="humidity">
+                            --%
+                        </strong>
+                    </div>
+
+                </div>
+
+
+                <div class="info-card">
+
+                    <span>💨</span>
+
+                    <div>
+                        <p>Vento</p>
+                        <strong id="wind">
+                            -- km/h
+                        </strong>
+                    </div>
+
+                </div>
+
+
+                <div class="info-card">
+
+                    <span>🌡️</span>
+
+                    <div>
+                        <p>Sensação</p>
+                        <strong id="feelsLike">
+                            --°
+                        </strong>
+                    </div>
+
+                </div>
+
+
+                <div class="info-card">
+
+                    <span>🌧️</span>
+
+                    <div>
+                        <p>Chuva</p>
+                        <strong id="rain">
+                            --%
+                        </strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PREVISÃO -->
+
+        <section class="forecast-section">
+
+            <div class="section-title">
+
+                <h2>Previsão</h2>
+
+                <span>Próximos dias</span>
+
+            </div>
+
+
+            <div class="forecast-container" id="forecastContainer">
+
+                <!--
+
+                Puxando a temp e a chance de chuva para hoje e dias seguintes
+
+                -->
+
+                <div class="forecast-card">
+
+                    <p>Hoje</p>
+
+                    <span class="forecast-icon" id="day_today_emoji">🌤️</span>
+
+                    <strong id="max_today">--°</strong>
+
+                    <small id="rain_today">--%🌧️</small>
+
+                </div>
+
+
+                <div class="forecast-card">
+
+                    <p>Amanhã</p>
+
+                    <span class="forecast-icon" id="day_2_emoji">☀️</span>
+
+                    <strong id="max_2">--°</strong>
+
+                    <small id="rain_2">--%🌧️</small>
+
+                </div>
+
+
+                <div class="forecast-card">
+
+                    <p>Dia 3</p>
+
+                    <span class="forecast-icon" id="day_3_emoji">🌧️</span>
+
+                    <strong id="max_3">--°</strong>
+
+                    <small id="rain_3">--%🌧️</small>
+
+                </div>
+
+
+                <div class="forecast-card">
+
+                    <p>Dia 4</p>
+
+                    <span class="forecast-icon" id="day_4_emoji">⛅</span>
+
+                    <strong id="max_4">--°</strong>
+
+                    <small id="rain_4">--%🌧️</small>
+
+                </div>
+
+
+                <div class="forecast-card">
+
+                    <p>Dia 5</p>
+
+                    <span class="forecast-icon" id="day_5_emoji">☀️</span>
+
+                    <strong id="max_5">--°</strong>
+
+                    <small id="rain_5">--%🌧️</small>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- STATUS -->
+
+        <div class="status" id="status">
+            Digite uma cidade para consultar o clima.
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
