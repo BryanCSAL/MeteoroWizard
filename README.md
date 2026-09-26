@@ -12,7 +12,6 @@ O usuário informa o nome de uma cidade e a aplicação utiliza a API de Geocodi
 
 ## 📑 Índice
 
-- [📸 Preview](#-preview)
 - [🚀 Funcionalidades](#-funcionalidades)
 - [🛠️ Tecnologias utilizadas](#️-tecnologias-utilizadas)
 - [🔌 Como funciona](#-como-funciona)
@@ -32,19 +31,6 @@ O usuário informa o nome de uma cidade e a aplicação utiliza a API de Geocodi
 - [🌐 Documentação](#-documentação)
 - [👨‍💻 Autor](#-autor)
 - [📄 Licença](#-licença)
-
-## 📸 Preview
-
->`preview.png`
-
-```text
-WeatherApp/
-├── index.html
-├── style.css
-├── script.js
-├── preview.png
-└── README.md
-```
 
 ## 🚀 Funcionalidades
 
